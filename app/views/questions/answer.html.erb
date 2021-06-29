@@ -1,0 +1,11 @@
+<div class="comment-box" id="comment-box-you">
+  <p id="question"><%= @question %></p>
+  <p class="commenter">-You</p>
+</div>
+
+<div class="comment-box" id="comment-box-coach">
+  <p id="answer"> <%= @answer %></p>
+  <p class="commenter">-Your coach</p>
+</div>
+
+<%= link_to "Ask a new question", ask_path %>

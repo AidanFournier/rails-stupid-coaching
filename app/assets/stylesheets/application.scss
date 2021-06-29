@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap/scss/bootstrap";
+@import "questions";
+
+body {
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.comment-box {
+  border-left: 5px solid grey;
+  padding-left: 20px;
+  margin-top: 30px;
+}
+
+#comment-box-coach {
+  background-color: yellow;
+}
+
+.commenter {
+  font-style: italic;
+}
